@@ -1,0 +1,22 @@
+galaxy_info:
+  author: Sébastien Elet
+  description: Setup gpg
+  company: SimpliField
+  license: BSD
+  min_ansible_version: 2
+  platforms:
+  - name: ubuntu
+    versions:
+    - trusty
+    - utopic
+    - vivid
+    - wily
+    - xenial
+  galaxy_tags:
+  - gpg
+
+dependencies:
+- role: SimpliField.packages
+  packages:
+  - gpgv2
+  tags: [gpg]
