@@ -5,13 +5,9 @@ galaxy_info:
   license: BSD
   min_ansible_version: 2
   platforms:
-  - name: ubuntu
+  - name: Ubuntu
     versions:
-    - trusty
-    - utopic
-    - vivid
-    - wily
-    - xenial
+    - all
   galaxy_tags:
   - gpg
 
